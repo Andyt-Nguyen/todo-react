@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+.App {
+	margin-top: 5%;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	width: 350px;
+	margin-left: 39%;
+	z-index: 99;
+}
+.Projects {
+	text-align: center;
+	text-align: left;
+	width: 100%;
+}
+
+.Project-Title {
+	font-family: 'Exo 2';
+	letter-spacing: 2px;
+	font-size: 30px;
+	margin:0;
+	padding:0;
+	background: #d500f9;
+	text-align: center;
+	color: white;
+}
+
+
+.AddProject {
+	text-align: center;
+	margin-top: 60px;
+}
+
+.Add-Project-Title {
+	font-family: 'Exo 2';
+	letter-spacing: 2px;
+	font-size: 30px;
+	margin:0;
+	padding:0;
+	text-align: left;
+}
+
+.Add-Title {
+	width: 99.5%;
+	font-size: 25px;
+	outline: none;
+	border: 1px solid #ccc;
+	background: #fafafa ;
+}
+
+.Input-Categ {
+	width: 100%;
+	font-size: 25px;
+	outline: none;
+}
+
+.Confirm {
+	font-family: 'Exo 2';
+	letter-spacing: 2px;
+	font-weight: 800;
+	font-size: 25px;
+	width:100%;
+	background: #d500f9 ;
+	border: 1px solid #d500f9 ;
+	border-radius: 4px;
+	color: white;
+}
+
+.Project-Items {
+	text-decoration: none;
+	list-style: none;
+	border-bottom: 2px solid #d500f9;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.remove {
+	text-align: center;
+	transition: .4s;
+	cursor: pointer;
+}
+
+.remove:hover {
+	transform: scaleZ(30px);
+	color: red;
+	text-decoration: line-through;
+}

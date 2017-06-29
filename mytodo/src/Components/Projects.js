@@ -12,8 +12,8 @@ class Projects extends Component {
 			)
 		})
 		return (
-			<div>
-				Projects App
+			<div className="Projects">
+				<h1 className="Project-Title">Projects</h1>
 				{projectItem}
 			</div>
 		)
